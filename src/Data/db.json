@@ -2,10 +2,24 @@
   "user": [
     {
       "id": 1,
-      "name": "Admin User",
-      "role": "admin",
-      "email": "admin@gmail.com",
-      "phone": "988387488"
+      "name": "Ram User",
+      "email": "ram@gmail.com",
+      "phone": "988387488",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Zaw User",
+      "email": "zaw@gmail.com",
+      "phone": "988387488",
+      "role": "staff"
+    },
+    {
+      "id": 3,
+      "name": "nayzawkhant",
+      "email": "nayzawkhant@gmail.com",
+      "phone": "097474664",
+      "role": "staff"
     }
   ]
 }

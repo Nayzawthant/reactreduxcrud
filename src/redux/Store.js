@@ -5,6 +5,6 @@ import logger from "redux-logger";
 
 
 const rootreducer = combineReducers({user:Reducer});
-const Store = configureStore({reducer:Reducer, middleware: [thunk, logger]});
+const Store = configureStore({reducer:rootreducer, middleware: [thunk, logger]});
 
 export default Store;

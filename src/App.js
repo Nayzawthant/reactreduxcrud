@@ -6,9 +6,12 @@ import UserListing from './component/UserListing';
 import Adduser from './component/Adduser';
 import UpdateUser from './component/UpdateUser';
 import { ToastContainer} from 'react-toastify';
+import { Provider } from 'react-redux';
+import Store from './redux/Store';
 
 function App() {
   return (
+    <Provider store={Store}>
     <div className='App'>
       <BrowserRouter>
       <div className='header'>
@@ -24,6 +27,7 @@ function App() {
       </BrowserRouter>
       <ToastContainer></ToastContainer>
     </div>
+    </Provider>
   );
 }
 

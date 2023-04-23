@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.card-header {
+  text-align: right;
+}
+
 .header {
   width: 100%;
   background-color: blue;
